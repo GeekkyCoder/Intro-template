@@ -32,8 +32,10 @@ nav li {
 }
 
 .main-primary-title {
-  font-size: 3rem;
+  font-size: 3.8rem;
   font-weight: bold;
+  margin-bottom: .5em;
+  margin-top: 1.5em;
 }
 
 .main-primary-body {
@@ -41,6 +43,8 @@ nav li {
   font-size: 1rem;
   line-height: 25px;
   margin-bottom: 2em;
+  margin-top: 0;
+  max-width: 380px;
 }
 
 /* Layout */
@@ -51,7 +55,7 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 0.2em 0.5em;
+  padding: 0.2em 1em;
 }
 
 nav ul {
@@ -157,13 +161,14 @@ nav li:hover {
 .main-primary-btn {
   background-color: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 98%);
-  padding: 0.7em 1em;
+  padding: 1em 1.5em;
   border-radius: 12px;
   cursor: pointer;
   text-align: center;
   font-family: inherit;
   font-size: 0.8rem;
   font-weight: bold;
+  margin-top: 1.5em;
 }
 
 .main-primary-btn:hover,
